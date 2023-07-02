@@ -27,6 +27,7 @@
     "http-status-codes": "^2.2.0",
     "jsonwebtoken": "^9.0.0",
     "mime-types": "^2.1.35",
+    "moment": "^2.29.4",
     "mongodb": "^5.0.1",
     "mongoose": "^6.9.0",
     "mongoose-paginate-v2": "^1.7.1",

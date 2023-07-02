@@ -7,29 +7,18 @@ const userSchema = new mongoose.Schema({
     },
     lastName:{
         type: String,
-        required: true
+        
     },
     email: {
         type: String,
-        required: true,
+        
     },
     password: {
         type: String,
-        required: true
+
     }, 
     rol: {
         type: String,
-    },
-    documents: {
-        type: [{
-        name: String,
-        reference: String
-        }],
-        default: []
-    },
-    last_connection: {
-        type: Date ,
-        default: new Date()
     }
 } , {
     versionKey: false,
