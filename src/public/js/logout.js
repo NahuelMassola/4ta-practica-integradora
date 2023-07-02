@@ -1,5 +1,4 @@
 const btnLogout = document.getElementById('logout');
-   
     btnLogout.addEventListener('click', () => {
         
         Swal.fire({

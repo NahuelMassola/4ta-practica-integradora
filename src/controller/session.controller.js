@@ -123,9 +123,7 @@ const roleChange = async (req, res, next)=>{
     return HttpResp.OK(res , "El Role Cambiado con exito");
 }
 
-const uploadDocuments = async (req,res)=>{
-  res.send(req.body) 
-}
+
 
 module.exports={
     sessionLogin,
@@ -135,5 +133,4 @@ module.exports={
     forgotPassword,
     forgotrecovery,
     roleChange,
-    uploadDocuments
 }

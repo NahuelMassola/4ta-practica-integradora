@@ -16,6 +16,7 @@ router.post('/realtimeproducts/', viewControllers.addRealTimeProduct)
 router.get('/chats', viewControllers.renderChats)
 router.get('/login', viewControllers.userLogin)
 router.get('/register',  viewControllers.registerLogin)
+router.get('/:uid/documents' , viewControllers.uploadDocuments)
 
 
 

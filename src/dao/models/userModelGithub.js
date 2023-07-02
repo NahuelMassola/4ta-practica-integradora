@@ -19,6 +19,17 @@ const userSchema = new mongoose.Schema({
     }, 
     rol: {
         type: String,
+    },
+    documents: {
+        type: [{
+        name: String,
+        reference: String
+        }],
+        default: []
+    },
+    last_connection: {
+        type: Date ,
+        default: new Date()
     }
 } , {
     versionKey: false,

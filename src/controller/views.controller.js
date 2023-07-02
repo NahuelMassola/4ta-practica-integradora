@@ -52,6 +52,10 @@ const forgotRecovery = async(req, res)=>{
   res.render('forgotrecovery')
 }
 
+const uploadDocuments = async (req,res)=>{
+  res.send('uploadDocuments') 
+}
+
 module.exports ={
     views,
     RealTimeProduct,
@@ -61,5 +65,6 @@ module.exports ={
     registerLogin,
     userLogin,
     forgotPassword,
-    forgotRecovery
+    forgotRecovery,
+    uploadDocuments
 }

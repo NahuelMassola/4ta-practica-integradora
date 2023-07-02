@@ -5,6 +5,11 @@ dotenv.config({ path: `.env.${process.env.ENVIROMENT || "development"}`}) ;
 
 logger.info(`'MODE : ${process.env.ENVIROMENT}'`)
 
+const TYPE_DOCUMENTS = [
+  "Identificacion",
+  "Comprobante de domiciolio",
+  "comprobante de cuenta"
+]
 
 module.exports ={
   NODE:process.env.ENVIRONMENT,
@@ -24,5 +29,6 @@ module.exports ={
   MEILING:{
     user:process.env.USERMAILING,
     password:process.env.PASSWORDMAILING
-  }
+  },
+  TYPE_DOCUMENTS
 }

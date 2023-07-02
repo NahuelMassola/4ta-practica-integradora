@@ -51,7 +51,7 @@ const userSchema = new mongoose.Schema({
     },
     last_connection: {
       type: Date ,
-      default: ""
+      default: new Date()
     }
   },{
     versionKey: false,
